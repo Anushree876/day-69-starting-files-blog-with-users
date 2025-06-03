@@ -33,7 +33,7 @@ MY_EMAIL=os.getenv("MY_EMAIL")
 MY_PASSWORD=os.getenv("MY_PASSWORD")
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.getenv("FLASK")
+app.config['SECRET_KEY'] = os.getenv("FLASK_KEY")
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
