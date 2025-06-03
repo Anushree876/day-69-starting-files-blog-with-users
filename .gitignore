@@ -4,3 +4,4 @@
 posts.db
 .idea
 .DS_Store
+.venv
