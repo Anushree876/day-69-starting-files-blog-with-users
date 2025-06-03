@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+.venv/Lib
+.env
+posts.db
+.idea
+.DS_Store
